@@ -9,11 +9,6 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Date;
 
-/**
- *
- * @author josue
- */
-
 class ProyectoPrinerParcial {
 
     public static Scanner sc = new Scanner(System.in);
