@@ -62,7 +62,6 @@ public class Receta {
         try {
             String ruta = this.nombre+".txt";
             File file = new File(ruta);
-            // Si el archivo no existe es creado
             if (!file.exists()) {
                 file.createNewFile();
             }
