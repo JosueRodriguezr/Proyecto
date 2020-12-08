@@ -104,7 +104,6 @@ class ProyectoPrinerParcial {
         String correo = sc.nextLine();
         System.out.print("Ingrese su dirección: ");
         String direccion = sc.nextLine();
-        //listaClientesVIP.add(new Cliente (cedula, nombres, apellidos, telefono, correo, direccion));
         System.out.println("Cual suscripcion desea elegir: ");
         System.out.println("1.-VIP $120/mensual\n" + "2.-Fresh $70/mensual");
         System.out.print("Opcion: ");
@@ -123,7 +122,6 @@ class ProyectoPrinerParcial {
                 Date fechaAc = new Date();
                 Calendar c1 = Calendar.getInstance();
                 c1.setTime(fechaAc);
-                //Calendar c = new GregorianCalendar();
                 listaClientesVIP.add(new Vip(cedula, nombres, apellidos, telefono, correo, direccion, c1, peso, estatura, horasEjercicio, tr));
                 System.out.println("Su usuario ha sido registrado con una Suscripcion VIP");
                 break;
@@ -219,7 +217,6 @@ class ProyectoPrinerParcial {
     }
     
     public static void GenerarMenu() {
-        //int valorRandom = Rand.nextInt(listaProductos.size());
         List<List> recetas = new ArrayList<>();
         List<Receta> almuerzo = new ArrayList<>();
         List<Receta> merienda = new ArrayList<>();
@@ -367,8 +364,6 @@ class ProyectoPrinerParcial {
                         cantidadP.add(Integer.parseInt(res[1]));
                     }
                 }
-                //productoR.add(res[0]);
-                //listaProductos.add(new Producto(res[0], res[1], res[2], res[3], res[4], res[5]));
             }
             listaRecetasCargadas.add(new Receta (productoR, cantidadP, preparacionReceta, nombreReceta));
             System.out.println("La receta ha sido cargada correctamente.");
