@@ -1,0 +1,5 @@
+Polito,Calienta el aceite
+AJO,10
+ARROZ INTEGRAL,10
+BACÓN,200
+CALAMAR,100
